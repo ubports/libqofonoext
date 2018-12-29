@@ -1,0 +1,3 @@
+usr/include/qofonoext/*.h
+usr/lib/*/pkgconfig/qofonoext.pc
+usr/lib/*/libqofonoext.so

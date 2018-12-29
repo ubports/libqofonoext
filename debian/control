@@ -1,0 +1,28 @@
+Source: libqofonoext
+Section: libs
+Priority: optional
+Build-Depends: debhelper (>= 9),
+    libqofono-dev,
+    qt5-default (>= 5.0),
+    qtbase5-dev (>= 5.0),
+Maintainer: UBports developers <developers@ubports.com>
+Standards-Version: 3.9.5
+Homepage: https://github.com/ubports/libqofonoext
+
+Package: libqofonoext
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: A library of Qt bindings for ofono extensions.
+
+Package: libqofonoext-dev
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: libqofonoext development headers.
+
+Package: qml-module-qofonoext
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: libqofonoext qml module.
